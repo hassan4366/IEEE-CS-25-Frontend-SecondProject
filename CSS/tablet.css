@@ -1,0 +1,285 @@
+/* start subNavbar */
+.subNavbar {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.subNavbar .shop-nav {
+    width: 70%;
+    text-align: left;
+}
+
+.subNavbar .lang {
+    width: 25%;
+    text-align: right;
+}
+
+/* end subNavbar */
+
+/* start Navbar */
+.Navbar {
+    padding: 10px 20px;
+}
+
+.Navbar .links a {
+    margin-right: 25px;
+    font-size: 14px;
+}
+
+
+.Navbar .search .icon-search {
+    right: 25%;
+}
+
+/* end Navbar */
+
+/* start header */
+.header {
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header .ledfHeader {
+    width: 35%;
+    padding-left: 10px;
+}
+
+.header .rightHeader {
+    width: 60%;
+}
+
+.header .rightHeader img {
+    width: 100%;
+}
+
+/* end header */
+
+/* start  flashHome sec */
+.flashHome {
+    padding: 10px;
+    text-align: center;
+}
+
+.flashHome .leftFlash {
+    width: 38%;
+}
+
+
+.flashHome .midFlash {
+    width: 40%;
+}
+
+.flashHome .rightFlash {
+    width: 17%;
+}
+
+/* end  flashHome sec */
+
+/* start  homeCard sec */
+.homeCard {
+    gap: 10px;
+}
+
+.homeCard .allCard {
+    width: 45%;
+}
+
+.homeCard .allCard .card img {
+    width: 60%;
+}
+
+/* end  homeCard sec */
+
+/* flashHome sec again  */
+.flashHome .leftCategories {
+    width: 70%;
+    text-align: left;
+}
+
+.flashHome .rightCategories {
+    width: 20%;
+}
+
+/* start CategoriesSection */
+.CategoriesSection {
+    gap: 15px;
+}
+
+.CategoriesSection .subCategories {
+    width: 30%;
+}
+
+.CategoriesSection .subCategories .iconCategories {
+    font-size: 24px;
+}
+
+.CategoriesSection .subCategories p {
+    font-size: 18px;
+}
+
+/* end CategoriesSection */
+
+/* flashHome sec again */
+.flashHome .rightCategories .view {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+/*  start ExperienceSec */
+.ExperienceSec {
+    flex-direction: row;
+    margin: 30px auto;
+}
+
+.ExperienceSec .ExperienceLeft {
+    width: 90%;
+}
+
+.ExperienceSec .ExperienceRight {
+    width: 65%;
+}
+
+.ExperienceSec .ExperienceLeft .btn-Categories {
+    font-weight: 600;
+    font-size: 16px;
+
+
+}
+
+.ExperienceSec .ExperienceLeft h6 {
+    font-size: 36px;
+}
+
+.ExperienceSec .ExperienceLeft .buy {
+    padding: 14px 40px;
+}
+
+.ExperienceSec .ExperienceRight img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+/*  end ExperienceSec */
+
+/*  start ServiceSection */
+.ServiceSection {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.ServiceSection .subService {
+    width: 30%;
+    text-align: center;
+}
+
+
+.ServiceSection .subService h4 {
+    font-size: 18px;
+}
+
+.ServiceSection .subService p {
+    font-size: 14px;
+}
+
+/*  end ServiceSection */
+
+/* start footer sec */
+footer {
+    height: auto;
+    padding: 20px;
+}
+
+footer .mainFooter {
+    flex-direction: row;
+
+    height: auto;
+    flex-wrap: wrap;
+}
+
+footer .footSec {
+    width: 45%;
+    margin-bottom: 10px;
+}
+
+footer .search input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer .footIcon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+
+footer .copy {
+    text-align: center;
+}
+
+/* end footer sec */
+
+/* start Wishlist page */
+.day-again {
+    align-items: flex-end;
+}
+
+.day-again .see {
+
+    margin-top: 15px;
+    padding: 12px 20px;
+}
+
+.frameWishlist .Navbar::after {
+    content: "4";
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+/* end Wishlist page */
+
+/* Product Details navbar */
+.Navbar .search .icon-search {
+    position: absolute;
+    right: 33%;
+    top: 30%;
+}
+/* Product Details page start Gaming sec */
+.ProductDetailspage .gaming {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ProductDetailspage .gaming .midGaming {
+    width: 48%;
+    height: 450px;
+    margin-bottom: 10px; 
+   
+}
+
+.ProductDetailspage .gaming .leftGaming {
+    width: 45%;
+    height: 450px;
+
+}
+
+.ProductDetailspage .gaming .leftGaming .img-Gaming {
+    width: 50%;
+}
+
+.ProductDetailspage .gaming .rightGaming {
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* end Gaming sec */
