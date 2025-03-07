@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.frameWishlist {
+    font-family: Poppins;
+    background-color: #FFFFFF;
+}
+
+/* start Navbar */
+
+.Navbar .search .icon-search {
+    position: absolute;
+    right: 29%;
+    top: 30%;
+}
+
+.frameWishlist .Navbar {
+    position: relative;
+}
+
+.frameWishlist .Navbar::after {
+    content: "4";
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.frameWishlist .Navbar .user {
+    margin-left: 7px;
+}
+
+/* end Navbar */
+
+/* start WishlistSec */
+.WishlistSec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    margin: 5px auto;
+    padding: 20px;
+    width: 92%;
+}
+
+.WishlistSec .leftWishlist {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #000000;
+
+}
+
+.WishlistSec .rightWishlist {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.WishlistSec .rightWishlist .move,
+.day .see {
+    border-radius: 4px;
+    border: 1px solid #00000080;
+    background-color: #FFFFFF;
+    padding: 16px 48px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    box-shadow: 0px 4px 10px 0px #98989827;
+}
+
+/* end WishlistSec */
+
+.homeCard .allCard .details .format-cart {
+    margin-right: 8px;
+}
+
+
+.day-again {
+    width: 92%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.homeCard .allCard .card .green-span {
+    background-color: #00FF66;
+}
+
+.homeCard {
+    margin-bottom: 60px;
+
+}
+
+/* @media (width: 599px) and (max-width: 700px)  {  
+.frameWishlist .Navbar::after {
+    content: "4";
+    position: absolute;
+    top: 50%;
+    right: 33%;
+    width: 14px;
+    height: 14px;
+    font-size: 10px;
+}
+} */

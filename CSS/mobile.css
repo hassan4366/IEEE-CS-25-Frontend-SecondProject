@@ -1,0 +1,325 @@
+.frameHome {
+    margin: 0 auto;
+
+}
+
+/* start subNavbar */
+.subNavbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.subNavbar .shop-nav {
+    width: 100%;
+    text-align: center;
+}
+
+.subNavbar .lang {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* end subNavbar */
+
+/* start Navbar */
+.Navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.Navbar .links {
+    margin-top: 10px;
+}
+
+.Navbar .links a {
+    margin: 5px 8px;
+}
+
+.Navbar .search {
+    margin-top: 10px;
+}
+
+.Navbar .search input {
+    width: 100%;
+}
+
+.Navbar .search .icon-search {
+    right: 0;
+    top: 20%;
+
+}
+
+/* end Navbar */
+
+/* start header */
+.header {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.header .ledfHeader {
+    width: 100%;
+    border-right: none;
+    padding-bottom: 10px;
+}
+
+.header .ledfHeader .arrow-icon {
+    float: none;
+    padding-right: 0;
+    margin-left: 5px;
+}
+
+.header .rightHeader {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* end header */
+
+/* start  flashHome sec */
+.flashHome {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flashHome .leftFlash,
+.flashHome .midFlash,
+.flashHome .rightFlash {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.flashHome .leftFlash p {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* end  flashHome sec */
+
+/* start  homeCard sec */
+.homeCard {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeCard .allCard {
+    width: 90%;
+    margin: 10px auto;
+}
+
+
+.homeCard .allCard .card img {
+    width: 80%;
+    height: 240px;
+}
+
+.homeCard .allCard button {
+    font-size: 14px;
+    height: 36px;
+}
+
+/* end  homeCard sec */
+
+/* flashHome sec again  */
+
+.flashHome .leftCategories {
+    width: 90%;
+}
+
+.flashHome .rightCategories {
+    width: 90%;
+
+}
+
+/* start CategoriesSection */
+.CategoriesSection {
+    gap: 10px;
+    justify-content: center;
+}
+
+.CategoriesSection .subCategories {
+    width: 45%;
+}
+
+.CategoriesSection .subCategories .iconCategories {
+    font-size: 20px;
+}
+
+.CategoriesSection .subCategories p {
+    font-size: 16px;
+}
+
+/* end CategoriesSection */
+
+/* flashHome sec again */
+.flashHome .rightCategories .view {
+    margin: 5px auto;
+    padding: 14px 40px;
+}
+
+/*  start ExperienceSec */
+.ExperienceSec {
+    flex-direction: row;
+    margin: 30px auto;
+}
+
+.ExperienceSec .ExperienceLeft {
+    width: 90%;
+}
+
+.ExperienceSec .ExperienceRight {
+    width: 65%;
+}
+
+.ExperienceSec .ExperienceLeft .btn-Categories {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.ExperienceSec .ExperienceLeft h6 {
+    font-size: 36px;
+}
+
+.ExperienceSec .ExperienceLeft .buy {
+    padding: 14px 40px;
+}
+
+.ExperienceSec .ExperienceRight img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+/*  end ExperienceSec */
+
+/*  start ServiceSection */
+.ServiceSection {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.ServiceSection .subService {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/*  end ServiceSection */
+
+
+/* start footer sec */
+footer {
+    height: auto;
+    padding: 20px;
+}
+
+footer .mainFooter {
+    flex-direction: column;
+    height: auto;
+}
+
+footer .footSec {
+    width: 100%;
+}
+
+footer .search input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer .footIcon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+footer .footSec h4,
+footer .footSec h5,
+footer .footSec h6,
+footer .footSec p {
+    text-align: left;
+}
+
+footer .copy {
+    font-size: 14px;
+    text-align: center;
+}
+
+/* end footer sec */
+
+/* start Wishlist page */
+.day-again {
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.day-again .see {
+    width: 60%; 
+    margin: 15px auto; 
+    padding: 12px 0; 
+}
+
+.frameWishlist .Navbar::after {
+    content: "4";
+    position: absolute;
+    top: 75%;
+    right: 54%;
+    width: 14px;
+    height: 14px;
+    font-size: 10px;
+}
+/* end Wishlist page */
+
+/* Product Details page start Gaming sec */
+
+.ProductDetailspage .gaming {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.ProductDetailspage .gaming .midGaming {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px; 
+    order: 1;
+}
+
+.ProductDetailspage .gaming .leftGaming {
+    width: 100%;
+    display: flex;
+    order: 2;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+.ProductDetailspage .gaming .leftGaming .img-Gaming {
+    width: 20%;
+    height: 80px;
+}
+
+.ProductDetailspage .gaming .rightGaming {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* end Gaming sec */
