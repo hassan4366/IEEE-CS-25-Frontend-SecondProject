@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+
+.frameHome{
+    font-family: Poppins;
+    background-color: #FFFFFF;
+    
+}
+
+
+.subNavbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000000;
+    padding: 5px;
+}
+
+.subNavbar .shop-nav {
+    width: 60%;
+    text-align: end;
+}
+
+.subNavbar .lang {
+    width: 20%;
+}
+
+.subNavbar .shop-nav p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FAFAFA;
+
+}
+
+.subNavbar .shop-nav a {
+    font-weight: 600;
+    font-size: 14px;
+    color: #FAFAFA;
+    text-decoration-color: #FAFAFA;
+
+}
+
+.subNavbar .lang select {
+    background: none;
+    color: #FAFAFA;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+}
+
+.subNavbar .lang select option {
+    background-color: black;
+    color: #FAFAFA;
+}
+
+/* end subNavbar */
+
+/* start Navbar */
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 4px 10px 0px #9c9c9c14;
+    border-bottom: .5px solid #ccc;
+}
+
+.Navbar .logo {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.Navbar .links a {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 48px;
+}
+
+.Navbar .links .line {
+    border-bottom: 1px solid #000000;
+}
+
+.Navbar .search {
+    position: relative;
+    display: inline-block;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* margin-top: 20px; */
+
+}
+
+.Navbar .search input{
+    width: 211px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 7px 12px 7px 20px;
+    border: 1px solid #ccc;
+    background-color: #F5F5F5;
+    /* margin-top: 10px; */
+}
+
+.Navbar .search .icon-search {
+    position: absolute;
+    right: 42%;
+    top: 33%;
+}
+
+.fa-user {
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+.search .fa-heart , 
+.fa-cart-shopping ,
+.fa-heart {
+    margin-left: 20px;
+    font-size: 20px;
+}
+/* end Navbar */
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container .section-1 {
+    padding: 50px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.title {
+    display: flex;
+    padding: 50px;
+    gap: 10px;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.title .ho {
+    color: #888;
+}
+
+.container .section-1 .left {
+    width: 600px;
+    margin-right: 80px;
+}
+
+.container .section-1 .left h1   {
+  margin-bottom: 40px;
+  text-transform: capitalize;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.container .section-1 .left p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .section-1 .right {
+    margin-right: -50px;
+}
+
+
+/* start  section-2 */
+
+.container .section-2 {
+    width: 90%;
+    padding: 0 70px;
+    margin-bottom: 80px;
+    display:  flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 80px;
+}
+
+.container .section-2 .card {
+    border: 1px solid #888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.container .section-2 .red{
+    background-color: #DB4444;
+    color: white;
+}
+
+
+/* end section-2 */
+
+/* start section-3  */
+
+.container .section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+
+.container .section-3 .card {
+    margin: 0 40px 0 0;
+}
+
+.container .section-3 .card h3  {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.container .section-3 .card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.container .section-3 .card .icons .fa-lg {
+font-weight: 200;
+margin: 0 17px 0 0;
+font-size: 20px;
+}
+
+.point {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.point img {
+    position: absolute;
+    bottom: -100px;
+    right: 110px;
+
+}
+
+/* end section-3 */
+
+.container .section-4 {
+    width: 90%;
+    padding: 0 70px;
+    margin-bottom: 80px;
+    display:  flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 40px;
+}
+
+
+.container .section-4 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 250px;
+    cursor: pointer;
+}
+
+
+.container .section-4 .card h1{
+    font-size: 20px;
+    margin: 8px 0;
+}
+/* start section-4  */
+
+
+
+/* start footer sec */
+footer {
+    background-color: #000000;
+    height: 440px;
+}
+
+footer .mainFooter {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 380px;
+
+}
+
+footer .footSec {
+    width: 17%;
+    color: #FAFAFA;
+    height: 236px;
+
+
+}
+
+footer .footSec h4 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+footer .footSec h5 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+footer .footSec h6 {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+footer .footSec p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+footer .search input {
+    width: 160px;
+    background-color: #000000;
+}
+
+footer .search .icon-search {
+    right: 15%;
+}
+
+footer .mainFooter .foot-i {
+    padding-right: 20px;
+}
+
+footer .footSec .subFootSec .foot-img {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+footer .copy {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: .3;
+    text-align: center;
+}
+
+footer .search {
+position: relative;
+}
+
+footer .search input {
+    border: 2px solid #fff;
+    width: 75%;
+    padding: 10px;
+}
+
+footer .search i {
+position: absolute;
+top: 30%;
+left: 70%;
+}
+/* end footer sec */
